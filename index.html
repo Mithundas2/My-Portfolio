@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-4 pe-5 ps-5">
+        <div class="w-100 d-flex align-items-center justify-content-between">
+            <div>
+                <a class="navbar-brand fw-bold fs-2">MY Portfolio</a>
+            </div>
+            <div class=" justify-content-end" id="navbarNav">
+                <div class="d-md-none d-lg-none d-block">
+                    <div class="dropdown">
+                        <button class="border-0 bg-gray-200 p-2" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu" style="margin-left: -6rem;">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#project">Projects</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- for large screen -->
+               <div class="d-md-block d-none">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+               </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="d-flex justify-content-between align-items-center container min-vh-100 my-sm-auto">
+        <div>
+            <!-- <h3 class="bg-primary text-white p-2">MERN DEV</h3> -->
+            <h2 class="fs-3 fw-semibold">Hey, I'm</h2>
+            <h1 class="fs-1 fw-bold" style="color: #a4b6ac">Mithun Kumar Das</h1>
+            <p class="fs-6 fw-normal w-75 border-none">Hello everyone, i am Mithun Kumar Das.Welcome to my Portfolio I'm a third-year Software Engineering student at Daffodil International University, specializing in 'Full-Stack Web Development'. With a solid academic foundation and hands-on experience in HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+                Seeking to contribute my skills to impactful projects, I'm dedicated to continuous learning and collaboration within the tech community. Let's connect and explore opportunities to create together! </p>
+
+            <button class="btn btn-primary ps-5 pe-5 pt-2 pb-2 border-0" style="background-color: #a4b6ac;">Let's Go</button>
+        </div>
+
+        <div class="d-none d-md-block">
+            <img src="picofme (5).png" alt="me"
+                class="img-fluid">
+        </div>
+    </section>
+
+    <section id="about" class="container-fluid d-md-flex justify-content-around align-items-center  bg-dark-subtle p-4">
+        <div class="">
+            <img src="picofme (5).png"
+                alt="about me" class="img-fluid rounded-circle" style="width: 550px; height: 550px;">
+        </div>
+        <div class="justify-content-end w-50">
+            <h3 class="fs-3">About me</h3>
+            <div class="">
+                <p class="">Welcome to my Portfolio! I'm a third-year Software Engineering student at Daffodil International University, specializing in 'Full-Stack Web Development'. With a solid academic foundation and hands-on experience in HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+                    Seeking to contribute my skills to impactful projects, I'm dedicated to continuous learning and collaboration within the tech community. Let's connect and explore opportunities to create together!</p>
+
+                <div class="d-flex">
+                    <a href="#" class="btn btn-primary me-2"><i class="fas fa-home"></i></a>
+                    <a href="#" class="btn btn-primary me-2"><i class="fas fa-heart"></i></a>
+                    <a href="#" class="btn btn-primary"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container technology">
+        <h2 class="text-center">Technologies I Know</h2>
+        <div class="row row-cols-2 row-cols-md-4 g-4">
+            <!-- Repeat this block for each technology -->
+            <div class="col">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repeat this block for each project -->
+    <section id="project" class="container">
+        <h2 class="text-center">My Projects</h2>
+        <!-- row - display-grid  -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-psd/digital-marketing-agency-corporate-web-banner-template_106176-2330.jpg"
+                        alt="thumbnail" class="">
+                    <div class="card-body w-100">
+                        <h3 class="card-title">Bus Ticket Booking</h3>
+                        <p class="card-text"></p>
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary me-2"><i class="fas fa-home"></i></a>
+                            <a href="#" class="btn btn-primary me-2"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="e commerce.webp"
+                        alt="thumbnail" class="card-img-top">
+                    <div class="card-body w-100">
+                        <h3 class="card-title">E -commerce Website</h3>
+                        <p class="card-text"></p>
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary me-2"><i class="fas fa-home"></i></a>
+                            <a href="#" class="btn btn-primary me-2"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <img src="images.jpeg"
+                        alt="thumbnail" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Bus _Ticket Booking System </h3>
+                        <p class="card-text"></p>
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary me-2"><i class="fas fa-home"></i></a>
+                            <a href="#" class="btn btn-primary me-2"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container contact-sec">
+        <div id="contact" class="container contact">
+            <h2 class="text-center">Contact Me</h2>
+            <div>
+                <form action="" class="contact-form">
+                    <input type="text" placeholder="Your Name" class="form-control mb-2">
+                    <input type="email" placeholder="Your Email" class="form-control mb-2">
+                    <textarea cols="30" rows="10" placeholder="Your Message" class="form-control mb-2"></textarea>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <p>Copyright &copy; 2024 | Mithun </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
